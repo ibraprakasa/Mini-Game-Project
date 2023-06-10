@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tebak Aku!</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="overflow-auto">
+    <div
+      id="back-icon"
+      class="absolute rounded-full mt-10 ml-2 sm:mt-20 sm:ml-32"
+      onclick="location.href='index.html'"
+    >
+      <i class="fas fa-chevron-left fa-lg"></i>
+    </div>
+    <div
+      class="flex pt-20 sm:pt-40 justify-center items-start h-screen w-screen"
+    >
+      <div class="text-center space-y-6">
+        <h1 class="ml3-small sm:ml3">cara bermain</h1>
+        <section
+          class="banner font-bold text-lg text-justify sm:text-2xl mx-6 ml-8 sm:ml-10 sm:mx-10"
+          style="font-family: 'Roboto', sans-serif"
+        >
+          <ul class="space-y-4">
+            <li type="square" class="fade-in delayed">
+              Komputer akan memikirkan angka secara acak dalam kisaran 1 hingga 100.
+            </li>
+            <li type="square" class="fade-in delayed">
+              Kamu memiliki 7 kesempatan untuk menebak angka yang benar.
+            </li>
+            <li type="square" class="fade-in delayed">
+              Jika Kamu menebaknya dengan benar dalam 7 kesempatan, Kamu menang! 👊  🏆
+            </li>
+            <li type="square" class="fade-in delayed">
+              Jika Kamu tidak dapat menebaknya dengan benar dalam 7 peluang, Kamu kalah wleeeee 😝
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="https://use.fontawesome.com/3eba7468c2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="./script.js"></script>
+</html>
